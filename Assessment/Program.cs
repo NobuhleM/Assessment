@@ -22,7 +22,6 @@ namespace Assessment
                 " or any combination of ‘1’, ‘2’ and ‘3’ to perform multiple checks: ");
             string operation = Console.ReadLine();
 
-            util.performFunction(operation, input);
             Console.WriteLine(util.performFunction(operation, input) );
             Console.ReadLine();
 
